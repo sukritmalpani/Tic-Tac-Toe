@@ -11,6 +11,7 @@ start.addEventListener("click", () => {
     player1 = document.getElementById("player1").value;
     player2 = document.getElementById("player2").value;
     // console.log(player1);
+    count=0;
     if (player1 != '' && player2 != '') {
         while (container.firstChild)
             container.removeChild(container.firstChild);
